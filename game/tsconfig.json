@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "sourceMap": true,
+    "outFile": "build.js"
+  },
+  "files": [
+    "scenes/intro.ts",
+    "engine/events.ts",
+    "engine/level.ts",
+    "engine/animate.ts",
+    "engine/player.ts",
+    "engine/ui.ts",
+    "engine/audio.ts",
+    "engine/game.ts",
+    "run.ts"
+  ]
+}

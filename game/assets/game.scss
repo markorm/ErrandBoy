@@ -1,0 +1,39 @@
+@import "scss/dialogs.scss";
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body, #screen, .ui-layer {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: sans-serif;
+    background: black;
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+    &.disabled {
+        pointer-events: none;
+        opacity: 0.2;
+    }
+}
+
+#screen {
+    opacity: 0;
+    overflow: hidden;
+    background-size: cover;
+    .ui-dialog { z-index: 1000; }
+}
+
+#level {
+    height: 100%;
+    width: 100%;
+}
